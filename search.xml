@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>DP动态规划</title>
+      <link href="/2022/03/21/DP%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+      <url>/2022/03/21/DP%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/</url>
+      
+        <content type="html"><![CDATA[<p>动态规划（Dynamic Programming，DP）是运筹学的一个分支，是求解决策过程最优化的过程。20世纪50年代初，美国数学家贝尔曼（R.Bellman）等人在研究多阶段决策过程的优化问题时，提出了著名的最优化原理，从而创立了动态规划。动态规划的应用极其广泛，包括工程技术、经济、工业生产、军事以及自动化控制等领域，并在背包问题、生产经营问题、资金管理问题、资源分配问题、最短路径问题和复杂系统可靠性问题等中取得了显著的效果。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2022/03/21/hello-world/"/>
       <url>/2022/03/21/hello-world/</url>
