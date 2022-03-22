@@ -8,7 +8,7 @@ subtitle: ''
 description: ''
 keywords:
 author: John Doe
-language: en
+language: zh-CN
 timezone: ''
 
 # URL
@@ -62,7 +62,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 12
   order_by: -date
 
 # Category & Tag
@@ -97,9 +97,20 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-matery-master
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git # git方式部署
+  repo: git@github.com:Leo-12/Leo-12.github.io.git # repository地址，即 GitHub用户名.github.io库 的SSH地址
+  branch: master # 分支名称，master即可
+#搜索
+search:
+  path: search.xml
+  field: post
+# hexo-admin authentification
+admin:
+  username: leo
+  password_hash: $2a$10$7hh6P/AepNFE.eFxhW0rv.yytRB1QI3DZiuadmSd5HTwcsFHE0UD2
+  secret: U2FsdGVkX192+YVGrRFFoML9x74jc7OA6HE3EQLIAmX7rlfZeXPHfUvzEJlvm6eh
